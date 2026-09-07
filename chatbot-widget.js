@@ -301,7 +301,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 function sendToGas4(message, isUserMessage) {
     // Define the Google Apps Script URL for this specific function
-    const GAS_URL4 = 'https://script.google.com/macros/s/AKfycbxsk-2GxzhIwCqyYeE9jNGzOlUkUBH-3LHAH8Tgdw2_-Zsi-hDKcNsQH112gw1sWZnB9g/execc';
+    const GAS_URL4 = 'https://script.google.com/macros/s/AKfycbzrnGP9EyNQzY67naBpX5msWf2m04jFUj2NsVxz3XM2DH6XGWIsuDErIy1UsV3zG1cpLg/exec';
 
     // Check if the message contains an email or has 6 or more digits in total
     if (message.includes('@') || (message.match(/\d/g) || []).length >= 6) {
